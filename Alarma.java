@@ -7,7 +7,7 @@ public void Alarm(){
  Timbre Timbr=new Timbre();
 Main M= new Main();
  Scanner teclado=new Scanner(System.in);
- System.out.println("¿Que temperatura hay?");
+ System.out.println("¿Qué temperatura quieres que haga hoy?");
  tempe=teclado.nextInt();
 if(tempe>=30){
 	Timbr.Timbr();
